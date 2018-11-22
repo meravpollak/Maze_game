@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="View.InstructionsController" prefHeight="400.0" prefWidth="600.0">
+    <GridPane>
+        <children >
+            <Label/>
+            <Label text="Instructions:" GridPane.columnIndex="0" GridPane.rowIndex="0"  />
+            <Label text="1.set the size of the board by change the size of the maze," GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Label text=" the defult is (25,25). after set click on Generate Maze, " GridPane.columnIndex="0" GridPane.rowIndex="2"  />
+            <Label text="and the maze will apper in the right of the Application." GridPane.columnIndex="0" GridPane.rowIndex="3"  />
+
+            <Label text="2.after you click on Generate maze" GridPane.columnIndex="0" GridPane.rowIndex="4"  />
+            <Label text="you can click on solve maze and Show Sulolution." GridPane.columnIndex="0" GridPane.rowIndex="5"  />
+
+            <Label text="3.To win the game you need to find the way to the green cell" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+            <Label text="4.you can change the board wall and character in " GridPane.columnIndex="0" GridPane.rowIndex="7" />
+            <Label text="options-> Board_Properties." GridPane.columnIndex="0" GridPane.rowIndex="8"  />
+            <Label text="5.also, you can change the maze options to build in " GridPane.columnIndex="0" GridPane.rowIndex="9" />
+            <Label text="oprtions->Maze_Properties." GridPane.columnIndex="0" GridPane.rowIndex="10"  />
+        </children>
+    </GridPane>
+
+</AnchorPane>

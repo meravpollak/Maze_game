@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AboutController" BorderPane.alignment="CENTER">
+
+   <GridPane>
+      <children >
+         <Label/>
+         <Label text="Noah Shogan 201432515, Merav Pollak 305759771" GridPane.columnIndex="0" GridPane.rowIndex="0"  />
+         <Label text="" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+         <Label text="For creating the maze we use 2 algorithms:" GridPane.columnIndex="0" GridPane.rowIndex="2"  />
+         <Label text="Simple Maze Generator and My Maze Generator" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+         <Label text="the default is  My Maze Generator" GridPane.columnIndex="0" GridPane.rowIndex="4"  />
+
+         <Label text="" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+         <Label text="For solving the maze we use 3 algorithms:" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+         <Label text="Depth First Search , Breadth First Search and Best First Search" GridPane.columnIndex="0" GridPane.rowIndex="7"  />
+         <Label text="the default is Depth First Search" GridPane.columnIndex="0" GridPane.rowIndex="8" />
+
+
+      </children>
+   </GridPane>
+
+
+</AnchorPane>

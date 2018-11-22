@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.canvas.Canvas.*?>
+
+<?import javafx.scene.canvas.Canvas?>
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="View.MazePropertiesController" prefHeight="400.0" prefWidth="600.0">
+
+    <children>
+        <VBox prefHeight="200.0" prefWidth="100.0" />
+        <Label layoutX="45.0" layoutY="20.0" text="Choose Maze Generator:" />
+        <ComboBox fx:id="ComboBox_CreateMaze" layoutX="34.0" layoutY="60.0" onAction= "#comboBoxCreateSelctionChanged" prefWidth="150.0" />
+        <ComboBox fx:id="ComboBox_serachAlgo" layoutX="234.0" layoutY="60.0" onAction="#comboBoxSearchAlgoSelctionChanged" prefWidth="150.0" />
+        <Label layoutX="230.0" layoutY="20.0" text="Choose Algorithm for Search:" />
+        <Button fx:id="btn_setProperties" layoutX="150.0" layoutY="200.0" mnemonicParsing="false" onAction="#setProperties" text="Set new properties" />
+    </children>
+
+
+</AnchorPane>
